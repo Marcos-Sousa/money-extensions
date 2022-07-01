@@ -4,12 +4,12 @@ namespace MoneyExtension
 {
     public static class Money
     {
-        public static int ToCents(this decimal amount)
+        public static int ToCents(this decimal val)
         {
-            if (amount <= 0)
+            if (val <= 0)
                 return 0;
 
-            var value = amount
+            var value = val
                 .ToString("N2")
                 .Replace(",", "")
                 .Replace(".", "");
