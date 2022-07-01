@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+
+     <PackageId>ExtensaoMonetaria</PackageId>
+    <Version>1.0.1</Version>
+    <License>MIT</License>
+    <Authors>Marcos Sousa</Authors>
+    <Company>dev</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/Marcos-Sousa/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Marcos-Sousa/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decima;converter</PackageTags>
+    <Title>ExtensaoMonetaria</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\midia\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
